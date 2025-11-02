@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Full-Screen Sheet View</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Sheet Full Screen View</title>
   <style>
     html, body {
       height: 100%;
+      width: 100%;
       margin: 0;
       padding: 0;
       overflow: hidden;
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
     }
     iframe {
       width: 100%;
@@ -20,7 +23,7 @@
 </head>
 <body>
   <iframe 
-    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ.../pubhtml?widget=true&amp;headers=false"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR6m2SZNXGRoUi1ojT_Y0UM3Lb18aP7ayp7tZZJ9Kf_mQLD-V2kEsikXNm6Ac_xP3kgy40V2Vw-FBlV/pubhtml?widget=true&amp;headers=false"
     allowfullscreen>
   </iframe>
 </body>
